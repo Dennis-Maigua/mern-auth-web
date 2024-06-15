@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 import { isAuth, signout } from '../auth/helpers';
+import logo from '../assets/logo.png';
 
 const Layout = ({ children }) => {
     const { pathname } = useLocation();
@@ -14,8 +15,8 @@ const Layout = ({ children }) => {
     return (
         <Fragment>
             <nav className='p-4 mx-auto max-w-screen-xl flex items-center justify-between shadow'>
-                <Link to='/' className='flex space-x-4'>
-                    <img src='' className='h-8' alt=' ' />
+                <Link to='/' className='flex space-x-1'>
+                    <img src={logo} className='h-8' alt='logo' />
                     <span className='text-2xl font-bold'> Mern-Auth-Web </span>
                 </Link>
 
