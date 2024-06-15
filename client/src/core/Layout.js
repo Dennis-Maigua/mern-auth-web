@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
 
     return (
         <Fragment>
-            <nav className='p-4 mx-auto max-w-screen-xl flex items-center justify-between shadow'>
+            <nav className='p-4 mx-auto flex items-center justify-between shadow'>
                 <Link to='/' className='flex space-x-1'>
                     <img src={logo} className='h-8' alt='logo' />
                     <span className='text-2xl font-bold'> Mern-Auth-Web </span>
