@@ -9,7 +9,7 @@ Mern-Auth-Web is a React JS (web) application that runs on any device browser.
 ### Key Features:
 
 - **Sign Up**: allows users to create a new account by providing necessary details like username, email, and password.
-- **Email Authentication**: involves sending a verification email containing a unique otp or code to the provided email address.
+- **Account Activation**: involves sending an activation link containing a unique token to the provided email address.
 - **Login**: allows registered users to log in to their accounts using their credentials (email and password).
 - **Forgot Password**: allows users to enter their email and receive a unique reset password token or link to reset their password.
 
@@ -81,4 +81,4 @@ This is one way to run your app — you can also run it directly from within you
    
 # Contributing:
 
-We welcome contributions from developers, legal experts, and blockchain enthusiasts. Feel free to fork the repository, make improvements, and submit pull requests.
+We welcome contributions from developers, legal experts, and technology enthusiasts. Feel free to fork the repository, make improvements, and submit pull requests.
