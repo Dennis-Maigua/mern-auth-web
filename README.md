@@ -19,7 +19,7 @@ Mern-Auth-Web is a React JS (web) application that runs on any device browser.
 
 ### 1. Clone the Repository
 
-Copy the project to your local machine (Desktop):
+Download the project to your local machine (Desktop):
 
 ```bash
     $ cd Desktop
